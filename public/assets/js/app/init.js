@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('Application', [
-  'ngRoute'
+  'ngRoute',
+  'Application.controllers'
 ]).
 config(['$locationProvider', '$interpolateProvider', '$routeProvider', function($locationProvider, $interpolateProvider, $routeProvider) {
 
